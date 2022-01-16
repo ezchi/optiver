@@ -24,16 +24,14 @@ echo "Installing doublep/iter2 ..."
 echo "Installing tarsius/hl-todo ..."
 ~/bin/optiver-github-clone-branch.zsh tarsius hl-todo master ~/.emacs.d/straight/repos
 
-echo "Installing nlamirault/ripgrep ..."
-~/bin/optiver-github-clone-branch.zsh nlamirault ripgrep master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/ripgrep ~/.emacs.d/straight/repos/ripgrep.el
+echo "Installing nlamirault/ripgrep.el ..."
+~/bin/optiver-github-clone-branch.zsh nlamirault ripgrep.el master ~/.emacs.d/straight/repos
 
 echo "Installing skeeto/emacs-web-server ..."
 ~/bin/optiver-github-clone-branch.zsh skeeto emacs-web-server master ~/.emacs.d/straight/repos
 
-echo "Installing domtronn/all-the-icons ..."
-~/bin/optiver-github-clone-branch.zsh domtronn all-the-icons master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/all-the-icons ~/.emacs.d/straight/repos/all-the-icons.el
+echo "Installing domtronn/all-the-icons.el ..."
+~/bin/optiver-github-clone-branch.zsh domtronn all-the-icons.el master ~/.emacs.d/straight/repos
 
 echo "Installing emacs-straight/pinentry ..."
 ~/bin/optiver-github-clone-branch.zsh emacs-straight pinentry master ~/.emacs.d/straight/repos
@@ -62,9 +60,8 @@ echo "Installing pythonic-emacs/pythonic ..."
 echo "Installing yoshiki/yaml-mode ..."
 ~/bin/optiver-github-clone-branch.zsh yoshiki yaml-mode master ~/.emacs.d/straight/repos
 
-echo "Installing magnars/dash ..."
-~/bin/optiver-github-clone-branch.zsh magnars dash master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/dash ~/.emacs.d/straight/repos/dash.el
+echo "Installing magnars/dash.el ..."
+~/bin/optiver-github-clone-branch.zsh magnars dash.el master ~/.emacs.d/straight/repos
 
 echo "Installing jwiegley/use-package ..."
 ~/bin/optiver-github-clone-branch.zsh jwiegley use-package master ~/.emacs.d/straight/repos
@@ -84,9 +81,8 @@ echo "Installing PythonNut/evil-easymotion ..."
 echo "Installing juliapath/evil-numbers ..."
 ~/bin/optiver-github-clone-branch.zsh juliapath evil-numbers master ~/.emacs.d/straight/repos
 
-echo "Installing gregsexton/origami ..."
-~/bin/optiver-github-clone-branch.zsh gregsexton origami master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/origami ~/.emacs.d/straight/repos/origami.el
+echo "Installing gregsexton/origami.el ..."
+~/bin/optiver-github-clone-branch.zsh gregsexton origami.el master ~/.emacs.d/straight/repos
 
 echo "Installing cask/epl ..."
 ~/bin/optiver-github-clone-branch.zsh cask epl master ~/.emacs.d/straight/repos
@@ -116,9 +112,8 @@ echo "Installing emacs-lsp/emacs-ccls ..."
 echo "Installing wcsmith/evil-args ..."
 ~/bin/optiver-github-clone-branch.zsh wcsmith evil-args master ~/.emacs.d/straight/repos
 
-echo "Installing magnars/s ..."
-~/bin/optiver-github-clone-branch.zsh magnars s master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/s ~/.emacs.d/straight/repos/s.el
+echo "Installing magnars/s.el ..."
+~/bin/optiver-github-clone-branch.zsh magnars s.el master ~/.emacs.d/straight/repos
 
 echo "Installing oantolin/orderless ..."
 ~/bin/optiver-github-clone-branch.zsh oantolin orderless master ~/.emacs.d/straight/repos
@@ -138,13 +133,11 @@ echo "Installing emacs-lsp/lsp-mode ..."
 echo "Installing emacs-straight/gnu-elpa-mirror ..."
 ~/bin/optiver-github-clone-branch.zsh emacs-straight gnu-elpa-mirror master ~/.emacs.d/straight/repos
 
-echo "Installing vrind-nl/rav ..."
-~/bin/optiver-github-clone-branch.zsh vrind-nl rav master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/rav ~/.emacs.d/straight/repos/rav.el
+echo "Installing vrind-nl/rav.el ..."
+~/bin/optiver-github-clone-branch.zsh vrind-nl rav.el master ~/.emacs.d/straight/repos
 
-echo "Installing noctuid/annalist ..."
-~/bin/optiver-github-clone-branch.zsh noctuid annalist master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/annalist ~/.emacs.d/straight/repos/annalist.el
+echo "Installing noctuid/annalist.el ..."
+~/bin/optiver-github-clone-branch.zsh noctuid annalist.el master ~/.emacs.d/straight/repos
 
 echo "Installing Wilfred/elisp-refs ..."
 ~/bin/optiver-github-clone-branch.zsh Wilfred elisp-refs master ~/.emacs.d/straight/repos
@@ -188,9 +181,8 @@ echo "Installing zweifisch/ob-http ..."
 echo "Installing emacscollective/no-littering ..."
 ~/bin/optiver-github-clone-branch.zsh emacscollective no-littering master ~/.emacs.d/straight/repos
 
-echo "Installing raxod502/straight ..."
-~/bin/optiver-github-clone-branch.zsh raxod502 straight master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/straight ~/.emacs.d/straight/repos/straight.el
+echo "Installing raxod502/straight.el ..."
+~/bin/optiver-github-clone-branch.zsh raxod502 straight.el master ~/.emacs.d/straight/repos
 
 echo "Installing emacs-straight/project ..."
 ~/bin/optiver-github-clone-branch.zsh emacs-straight project master ~/.emacs.d/straight/repos
@@ -231,16 +223,14 @@ echo "Installing emacs-evil/goto-chg ..."
 echo "Installing redguardtoo/evil-nerd-commenter ..."
 ~/bin/optiver-github-clone-branch.zsh redguardtoo evil-nerd-commenter master ~/.emacs.d/straight/repos
 
-echo "Installing tekai/gntp ..."
-~/bin/optiver-github-clone-branch.zsh tekai gntp master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/gntp ~/.emacs.d/straight/repos/gntp.el
+echo "Installing tekai/gntp.el ..."
+~/bin/optiver-github-clone-branch.zsh tekai gntp.el master ~/.emacs.d/straight/repos
 
 echo "Installing iyefrat/all-the-icons-completion ..."
 ~/bin/optiver-github-clone-branch.zsh iyefrat all-the-icons-completion master ~/.emacs.d/straight/repos
 
-echo "Installing noctuid/general ..."
-~/bin/optiver-github-clone-branch.zsh noctuid general master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/general ~/.emacs.d/straight/repos/general.el
+echo "Installing noctuid/general.el ..."
+~/bin/optiver-github-clone-branch.zsh noctuid general.el master ~/.emacs.d/straight/repos
 
 echo "Installing bbatsov/persp-projectile ..."
 ~/bin/optiver-github-clone-branch.zsh bbatsov persp-projectile master ~/.emacs.d/straight/repos
@@ -263,9 +253,8 @@ echo "Installing emacs-tree-sitter/tree-sitter-langs ..."
 echo "Installing melpa/melpa ..."
 ~/bin/optiver-github-clone-branch.zsh melpa melpa master ~/.emacs.d/straight/repos
 
-echo "Installing ezchi/tox ..."
-~/bin/optiver-github-clone-branch.zsh ezchi tox develop ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/tox ~/.emacs.d/straight/repos/tox.el
+echo "Installing ezchi/tox.el ..."
+~/bin/optiver-github-clone-branch.zsh ezchi tox.el develop ~/.emacs.d/straight/repos
 
 echo "Installing chuntaro/emacs-async-await ..."
 ~/bin/optiver-github-clone-branch.zsh chuntaro emacs-async-await master ~/.emacs.d/straight/repos
@@ -330,13 +319,11 @@ echo "Installing doomemacs/themes ..."
 echo "Installing gabesoft/evil-mc ..."
 ~/bin/optiver-github-clone-branch.zsh gabesoft evil-mc master ~/.emacs.d/straight/repos
 
-echo "Installing rejeep/f ..."
-~/bin/optiver-github-clone-branch.zsh rejeep f master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/f ~/.emacs.d/straight/repos/f.el
+echo "Installing rejeep/f.el ..."
+~/bin/optiver-github-clone-branch.zsh rejeep f.el master ~/.emacs.d/straight/repos
 
-echo "Installing Wilfred/ht ..."
-~/bin/optiver-github-clone-branch.zsh Wilfred ht master ~/.emacs.d/straight/repos
-mv ~/.emacs.d/straight/repos/ht ~/.emacs.d/straight/repos/ht.el
+echo "Installing Wilfred/ht.el ..."
+~/bin/optiver-github-clone-branch.zsh Wilfred ht.el master ~/.emacs.d/straight/repos
 
 echo "Installing skeeto/emacsql ..."
 ~/bin/optiver-github-clone-branch.zsh skeeto emacsql master ~/.emacs.d/straight/repos
